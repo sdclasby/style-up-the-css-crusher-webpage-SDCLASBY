@@ -1,0 +1,60 @@
+.body{ 
+color: indigo;
+}
+
+.heading{
+  background-color: orange;
+  color: darkgray;
+}
+
+.nav{
+  background-color: blue;
+  color: orange;
+}
+
+.active{
+  font-weight: bold;
+} 
+
+.title{
+  color: darkorange;
+}
+
+.text{
+  color: white;
+}
+
+.image{
+  border: 10px solid darkorange;
+}
+
+.form{
+  color: orange;
+}
+
+.button{
+  background-color: blue;
+  color: orange;
+}
+@media (max-width: 600px) {
+    .nav a {
+        padding: 5px 10px;
+        font-size: 14px;
+    }
+
+    .heading, .title {
+        font-size: 1.5em;
+    }
+
+    .image {
+        max-width: 100%;
+        height: auto;
+    }
+}
+.form input, .form textarea {
+    font-size: 1em;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
